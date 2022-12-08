@@ -1,0 +1,32 @@
+<note>
+czh:
+    int_array = {-6e+2,2,-90E2};
+    string_array = {"1", "2", "3"};
+    bool_array = {true, true, false};
+    any_array = {false, 1.0000000000000002, "2", 3, 4e11};
+    😀UTF示例 = "测试📕";
+    double = -6e-2;
+    bool = true;
+    int = +2e8;
+    long_long = +2e11;
+    null_example = null;
+    block:
+        czh:
+            int = 0;
+        end;
+        a = ::czh::int;  <a == +2e8>
+        b = czh::int     <b == 0>
+        c = int;         <c == +2e8>
+        d = c;           <d == +2e8>
+    end;
+   value_map:
+        k1 = 7;
+        k2 = 8;
+        k3 = 9;
+    end;
+    value_array_map:
+        k1 = {1,2,3};
+        k2 = {4,5,7};
+        k3 = {6,8,9};
+    end;
+end;

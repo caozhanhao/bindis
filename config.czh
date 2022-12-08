@@ -1,0 +1,11 @@
+config:
+  count = 100
+  max = 60
+  min = 40
+  nsamples = 100
+  probability = 0.5
+  nthreads = 10
+end
+result:
+  last_frequency = 0.97
+end
